@@ -1,4 +1,4 @@
-canvas-go-frontend
+Canvas Go Front End Design
 ==================
 
-Front End for Canvas Go
+Put any notes regarding the front end in here
