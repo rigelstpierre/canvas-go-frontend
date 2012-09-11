@@ -593,8 +593,10 @@ form button {
   left: 0px;
   height: 100%;
   width: 100%;
-  background: #000;
-  display: none; }
+  background: #111;
+  display: none;
+  -webkit-box-shadow: inset 0 0 25px 25px black;
+  box-shadow: inset 0 0 25px 25px black; }
 
 .modal {
   width: 600px;
@@ -738,6 +740,16 @@ header {
     font-weight: 700;
     font-size: 14px;
     font-style: normal; }
+
+#modalHome {
+  text-align: center; }
+  #modalHome h3 {
+    margin: 0;
+    text-align: center; }
+  #modalHome form {
+    width: 584px; }
+  #modalHome input {
+    width: 584px; }
 
 /** 
 ==================

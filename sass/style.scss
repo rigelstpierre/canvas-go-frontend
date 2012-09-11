@@ -138,8 +138,10 @@ form {
     left: 0px;
     height:100%;
     width:100%;
-    background: #000;
+    background: #111;
     display: none;
+    -webkit-box-shadow: inset 0 0 25px 25px rgb(0, 0, 0);
+    box-shadow:  	    inset 0 0 25px 25px rgb(0, 0, 0);
 }
 
 .modal {
@@ -318,6 +320,14 @@ header {
 		font-size: 14px;
 		font-style: normal;
 	}
+}
+
+#modalHome {
+	text-align: center;
+	
+	h3 {margin: 0; text-align: center;}
+	form {width: 584px}
+	input {width: 584px;}
 }
 
 
