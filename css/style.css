@@ -4,7 +4,6 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 21, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 article,
 aside,
 details,
@@ -16,40 +15,33 @@ hgroup,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 31, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 audio,
 canvas,
 video {
   display: inline-block;
   *display: inline;
-  *zoom: 1;
-}
+  *zoom: 1; }
 
 /*
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 42, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /*
  * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 53, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* ==========================================================================
    Base
@@ -60,36 +52,30 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 68, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 83, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 html,
 button,
 input,
 select,
 textarea {
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
-/* line 91, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Links
@@ -97,19 +83,15 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 103, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 a:focus {
-  outline: thin dotted;
-}
+  outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 112, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* ==========================================================================
    Typography
@@ -119,160 +101,120 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 126, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
-}
+  margin: 0.67em 0; }
 
-/* line 131, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h2 {
   font-size: 1.5em;
-  margin: 0.83em 0;
-}
+  margin: 0.83em 0; }
 
-/* line 136, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h3 {
   font-size: 1.17em;
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
-/* line 141, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h4 {
   font-size: 1em;
-  margin: 1.33em 0;
-}
+  margin: 1.33em 0; }
 
-/* line 146, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h5 {
   font-size: 0.83em;
-  margin: 1.67em 0;
-}
+  margin: 1.67em 0; }
 
-/* line 151, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 h6 {
   font-size: 0.75em;
-  margin: 2.33em 0;
-}
+  margin: 2.33em 0; }
 
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 160, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 169, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
-/* line 173, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 blockquote {
-  margin: 1em 40px;
-}
+  margin: 1em 40px; }
 
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 181, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
-/* line 189, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 199, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 p,
 pre {
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 210, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 220, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word;
-}
+  word-wrap: break-word; }
 
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
-/* line 230, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 q {
-  quotes: none;
-}
+  quotes: none; }
 
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 239, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 q:before,
 q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 248, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 257, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
-/* line 264, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
-/* line 268, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* ==========================================================================
    Lists
@@ -280,38 +222,30 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 283, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 dl,
 menu,
 ol,
 ul {
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
-/* line 287, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 dd {
-  margin: 0 0 0 40px;
-}
+  margin: 0 0 0 40px; }
 
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 297, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 menu,
 ol,
 ul {
-  padding: 0 0 0 40px;
-}
+  padding: 0 0 0 40px; }
 
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 306, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
-  list-style-image: none;
-}
+  list-style-image: none; }
 
 /* ==========================================================================
    Embedded content
@@ -320,21 +254,17 @@ nav ol {
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 320, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 img {
   border: 0;
   /* 1 */
   -ms-interpolation-mode: bicubic;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 329, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* ==========================================================================
    Figures
@@ -342,10 +272,8 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 341, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 figure {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Forms
@@ -353,27 +281,22 @@ figure {
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
-/* line 353, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 form {
-  margin: 0;
-}
+  margin: 0; }
 
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 361, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /*
  * 1. Corrects color not being inherited in IE 6/7/8/9.
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 373, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -381,8 +304,7 @@ legend {
   white-space: normal;
   /* 2 */
   *margin-left: -7px;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * 1. Corrects font size not being inherited in all browsers.
@@ -390,7 +312,6 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 390, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 button,
 input,
 select,
@@ -402,18 +323,15 @@ textarea {
   vertical-align: baseline;
   /* 3 */
   *vertical-align: middle;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 403, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 button,
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /*
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -424,7 +342,6 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 420, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -434,17 +351,14 @@ input[type="submit"] {
   cursor: pointer;
   /* 3 */
   *overflow: visible;
-  /* 4 */
-}
+  /* 4 */ }
 
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 431, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 button[disabled],
 input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /*
  * 1. Addresses box sizing set to content-box in IE 8/9.
@@ -452,7 +366,6 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 443, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -462,55 +375,46 @@ input[type="radio"] {
   *height: 13px;
   /* 3 */
   *width: 13px;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 456, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 /*
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 469, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 478, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 488, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
   vertical-align: top;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* ==========================================================================
    Tables
@@ -518,165 +422,120 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 501, /Users/Nick/src/CanvasGo/sass/_normalize.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 3, /Users/Nick/src/CanvasGo/sass/style.scss */
 body {
-  background: url("../img/bg.jpg");
+  background: #eeeeee url("../img/bg.jpg");
   font-family: 'Merriweather', Georgia, Times, "Times New Roman", serif;
   font-weight: 300;
   font-size: 16px;
-  color: #444;
-}
+  color: #444; }
 
-/* line 11, /Users/Nick/src/CanvasGo/sass/style.scss */
 button, input {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 /** 
 ==================
     typography 
 ================== 
 **/
-/* line 23, /Users/Nick/src/CanvasGo/sass/style.scss */
 p {
   font-size: 1em;
   line-height: 1.5em;
-  margin: 0 0 1.5em 0;
-}
+  margin: 0 0 1.5em 0; }
 
-/* line 24, /Users/Nick/src/CanvasGo/sass/style.scss */
 h1 {
   font-size: 2em;
   font-weight: 400;
   line-height: 1.5em;
   margin-top: 0.75em;
-  margin-bottom: 0em;
-}
+  margin-bottom: 0em; }
 
-/* line 25, /Users/Nick/src/CanvasGo/sass/style.scss */
 h2 {
   font-size: 1.8333em;
   line-height: 1.6364em;
   margin-top: 0.8182em;
-  margin-bottom: 0em;
-}
+  margin-bottom: 0em; }
 
-/* line 26, /Users/Nick/src/CanvasGo/sass/style.scss */
 h3 {
   font-size: 1.6667em;
   line-height: 1.8em;
   margin-top: 0.9em;
-  margin-bottom: 0em;
-}
+  margin-bottom: 0em; }
 
-/* line 28, /Users/Nick/src/CanvasGo/sass/style.scss */
 a {
   font-weight: 700;
   text-decoration: none;
-  color: #700000;
-}
-/* line 33, /Users/Nick/src/CanvasGo/sass/style.scss */
-a:hover {
-  color: #000;
-}
+  color: #700000; }
+  a:hover {
+    color: #000; }
 
-/* line 36, /Users/Nick/src/CanvasGo/sass/style.scss */
 .italic {
-  font-style: italic;
-}
+  font-style: italic; }
 
-/* line 37, /Users/Nick/src/CanvasGo/sass/style.scss */
 .bold {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /** 
 ==================
     utility 
 ================== 
 **/
-/* line 46, /Users/Nick/src/CanvasGo/sass/style.scss */
 .mark {
-  font-family: Times, "Times New Roman", serif;
-}
+  font-family: Times, "Times New Roman", serif; }
 
-/* line 50, /Users/Nick/src/CanvasGo/sass/style.scss */
 .wrap:before,
 .wrap:after {
   content: " ";
-  display: table;
-}
+  display: table; }
 
-/* line 51, /Users/Nick/src/CanvasGo/sass/style.scss */
 .wrap:after {
-  clear: both;
-}
+  clear: both; }
 
-/* line 52, /Users/Nick/src/CanvasGo/sass/style.scss */
 .wrap {
-  *zoom: 1;
-}
+  *zoom: 1; }
 
 /** 
 =========================
     structure & assets 
 =========================
 **/
-/* line 76, /Users/Nick/src/CanvasGo/sass/style.scss */
 .container {
   width: 960px;
-  margin: 0 auto 20px;
-}
+  margin: 0 auto 20px; }
 
-/* line 77, /Users/Nick/src/CanvasGo/sass/style.scss */
 .one-third {
   width: 300px;
   margin-right: 60px;
-  float: left;
-}
+  float: left; }
 
-/* line 78, /Users/Nick/src/CanvasGo/sass/style.scss */
 .two-thirds {
   width: 600px;
   margin-right: 60px;
-  float: left;
-}
+  float: left; }
 
-/* line 79, /Users/Nick/src/CanvasGo/sass/style.scss */
 .half {
   width: 450px;
   margin-right: 60px;
   float: left;
-  position: relative;
-}
+  position: relative; }
 
-/* line 80, /Users/Nick/src/CanvasGo/sass/style.scss */
 .one-fourth {
   width: 195px;
   margin-right: 60px;
-  float: left;
-}
+  float: left; }
 
-/* line 81, /Users/Nick/src/CanvasGo/sass/style.scss */
 .three-fourths {
   width: 585px;
   margin-right: 60px;
-  float: left;
-}
+  float: left; }
 
-/* line 82, /Users/Nick/src/CanvasGo/sass/style.scss */
 .last {
-  margin-right: 0 !important;
-}
+  margin-right: 0 !important; }
 
-/* line 84, /Users/Nick/src/CanvasGo/sass/style.scss */
 button.red {
   font-size: 1em;
   text-transform: uppercase;
@@ -704,20 +563,14 @@ button.red {
   background: linear-gradient(to bottom, #9e0000 0%, #870000 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e0000', endColorstr='#870000',GradientType=0 );
-  /* IE6-9 */
-}
-/* line 105, /Users/Nick/src/CanvasGo/sass/style.scss */
-button.red:hover {
-  background: #870000;
-}
+  /* IE6-9 */ }
+  button.red:hover {
+    background: #870000; }
 
-/* line 110, /Users/Nick/src/CanvasGo/sass/style.scss */
 form div {
   margin-top: 1.5em;
   float: left;
-  margin-right: 60px;
-}
-/* line 116, /Users/Nick/src/CanvasGo/sass/style.scss */
+  margin-right: 60px; }
 form input, form textarea {
   padding: 10px 7px;
   background: #fff;
@@ -727,306 +580,243 @@ form input, form textarea {
   outline: none;
   border-left: 3px solid #fff;
   margin-top: 4px;
-  letter-spacing: 1px;
-}
-/* line 127, /Users/Nick/src/CanvasGo/sass/style.scss */
-form input:focus, form textarea:focus {
-  border-left: 3px solid #700000;
-}
-/* line 130, /Users/Nick/src/CanvasGo/sass/style.scss */
+  letter-spacing: 1px; }
+  form input:focus, form textarea:focus {
+    border-left: 3px solid #700000; }
 form button {
-  margin-top: 36px;
-}
+  margin-top: 36px; }
+
+#lean_overlay {
+  position: fixed;
+  z-index: 10000;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none; }
+
+.modal {
+  width: 600px;
+  padding: 30px;
+  display: none;
+  background: #eeeeee url("../img/bg.jpg");
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border-bottom: 1px solid #000;
+  -webkit-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.5); }
 
 /** 
 ==================
     header 
 ================== 
 **/
-/* line 139, /Users/Nick/src/CanvasGo/sass/style.scss */
 .top-bar {
   width: 100%;
   height: 5px;
-  background: url(../img/bg-bar.png) center top;
-}
+  background: url(../img/bg-bar.png) center top; }
 
-/* line 141, /Users/Nick/src/CanvasGo/sass/style.scss */
 header {
   width: 960px;
-  margin: 70px auto;
-}
-/* line 145, /Users/Nick/src/CanvasGo/sass/style.scss */
-header .logo {
-  background: url(../img/logo.png) no-repeat;
-  width: 314px;
-  height: 110px;
-  text-indent: -999em;
-  float: left;
-}
-/* line 152, /Users/Nick/src/CanvasGo/sass/style.scss */
-header nav {
-  margin-top: 30px;
-  float: right;
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-/* line 161, /Users/Nick/src/CanvasGo/sass/style.scss */
-header nav ul li {
-  float: left;
-  margin-left: 40px;
-}
-/* line 165, /Users/Nick/src/CanvasGo/sass/style.scss */
-header nav ul li a {
-  display: inline-block;
-  color: #666;
-  text-decoration: none;
-  padding: 0 3px 12px;
-}
-/* line 171, /Users/Nick/src/CanvasGo/sass/style.scss */
-header nav ul li a:hover {
-  color: #000;
-}
-/* line 175, /Users/Nick/src/CanvasGo/sass/style.scss */
-header nav ul li a.active {
-  color: #700000;
-  border-bottom: 3px solid #700000;
-}
+  margin: 70px auto; }
+  header .logo {
+    background: url(../img/logo.png) no-repeat;
+    width: 314px;
+    height: 110px;
+    text-indent: -999em;
+    float: left; }
+  header nav {
+    margin-top: 30px;
+    float: right;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+    header nav ul li {
+      float: left;
+      margin-left: 40px; }
+      header nav ul li a {
+        display: inline-block;
+        color: #666;
+        text-decoration: none;
+        padding: 0 3px 12px; }
+        header nav ul li a:hover {
+          color: #000; }
+        header nav ul li a.active {
+          color: #700000;
+          border-bottom: 3px solid #700000; }
 
 /** 
 ==================
     home 
 ================== 
 **/
-/* line 192, /Users/Nick/src/CanvasGo/sass/style.scss */
 .border {
   background: url(../img/bg-main.png);
   width: 100%;
   height: 6px;
-  margin: 5px auto;
-}
+  margin: 5px auto; }
 
-/* line 198, /Users/Nick/src/CanvasGo/sass/style.scss */
 .main-container {
   background: url(../img/bg-main.png);
   width: 100%;
-  padding: 30px 0;
-}
-/* line 203, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step {
-  width: 280px;
-  margin: 0 60px 40px 0;
-  float: left;
-}
-/* line 208, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step.last {
-  margin: 0;
-}
-/* line 210, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step h2 {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 1.125em;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  margin: 0 auto;
-  color: #aaa;
-}
-/* line 220, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step h2 span {
-  font-family: 'Merriweather', Georgia, Times, "Times New Roman", serif;
-  font-weight: 300;
-  text-align: center;
-  display: inline-block;
-  background: #aaa;
-  font-size: 20px;
-  line-height: 35px;
-  color: #fff;
-  height: 35px;
-  width: 35px;
-  margin-right: 3px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-/* line 237, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step p {
-  text-align: center;
-}
-/* line 239, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step .icon {
-  background: url("../img/sprite-features.png") no-repeat 0 0;
-  width: 228px;
-  height: 207px;
-  margin: 0 auto;
-}
-/* line 245, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step .icon.edit {
-  background-position-x: -236px;
-}
-/* line 246, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step .icon.complete {
-  background-position-x: -472px;
-}
-/* line 249, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .step a {
-  font-size: .875em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 3px;
-}
-/* line 259, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .current h2 {
-  color: #444;
-}
-/* line 261, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container .current h2 span {
-  background: #444;
-}
-/* line 265, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container button.cta {
-  display: block;
-  clear: both;
-  margin: 0 auto;
-  background: url("../img/sprite-features.png") no-repeat -8px -217px;
-  width: 508px;
-  height: 88px;
-  text-indent: -999em;
-  border: none;
-}
-/* line 275, /Users/Nick/src/CanvasGo/sass/style.scss */
-.main-container button.cta:hover {
-  background-position: -8px -315px;
-}
+  padding: 30px 0; }
+  .main-container .step {
+    width: 280px;
+    margin: 0 60px 40px 0;
+    float: left; }
+    .main-container .step.last {
+      margin: 0; }
+    .main-container .step h2 {
+      font-family: 'Source Sans Pro', Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 1.125em;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 1px;
+      margin: 0 auto;
+      color: #aaa; }
+      .main-container .step h2 span {
+        font-family: 'Merriweather', Georgia, Times, "Times New Roman", serif;
+        font-weight: 300;
+        text-align: center;
+        display: inline-block;
+        background: #aaa;
+        font-size: 20px;
+        line-height: 35px;
+        color: #fff;
+        height: 35px;
+        width: 35px;
+        margin-right: 3px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%; }
+    .main-container .step p {
+      text-align: center; }
+    .main-container .step .icon {
+      background: url("../img/sprite-features.png") no-repeat 0 0;
+      width: 228px;
+      height: 207px;
+      margin: 0 auto; }
+      .main-container .step .icon.edit {
+        background-position-x: -236px; }
+      .main-container .step .icon.complete {
+        background-position-x: -472px; }
+    .main-container .step a {
+      font-size: .875em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 3px; }
+  .main-container .current h2 {
+    color: #444; }
+    .main-container .current h2 span {
+      background: #444; }
+  .main-container .cta {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    background: url("../img/sprite-features.png") no-repeat -8px -217px;
+    width: 508px;
+    height: 88px;
+    text-indent: -999em;
+    border: none; }
+    .main-container .cta:hover {
+      background-position: -8px -315px; }
 
-/* line 279, /Users/Nick/src/CanvasGo/sass/style.scss */
 .intro {
   width: 600px;
   margin: 20px 60px 40px 0;
-  float: left;
-}
+  float: left; }
 
-/* line 285, /Users/Nick/src/CanvasGo/sass/style.scss */
 .testimonial {
   width: 300px;
   margin-top: 20px;
   color: #700000;
   float: left;
-  font-style: italic;
-}
-/* line 292, /Users/Nick/src/CanvasGo/sass/style.scss */
-.testimonial .author {
-  font-weight: 700;
-  font-size: 14px;
-  font-style: normal;
-}
+  font-style: italic; }
+  .testimonial .author {
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal; }
 
 /** 
 ==================
     edit page
 ================== 
 **/
-/* line 305, /Users/Nick/src/CanvasGo/sass/style.scss */
 .options {
   position: relative;
-  margin-bottom: 20px;
-}
-/* line 309, /Users/Nick/src/CanvasGo/sass/style.scss */
-.options h3 {
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #700000;
-  text-transform: uppercase;
-  margin: 0;
-}
-/* line 316, /Users/Nick/src/CanvasGo/sass/style.scss */
-.options h3:before {
-  content: "";
-  display: block;
-  border-top: solid 1px #700000;
-  width: 100%;
-  height: 1px;
-  position: absolute;
-  top: 14px;
-  z-index: 1;
-}
-/* line 327, /Users/Nick/src/CanvasGo/sass/style.scss */
-.options h3 span {
-  background: url(../img/bg-main.png) center top;
-  padding: 0 10px 0 0;
-  position: relative;
-  z-index: 5;
-}
+  margin-bottom: 20px; }
+  .options h3 {
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #700000;
+    text-transform: uppercase;
+    margin: 0; }
+    .options h3:before {
+      content: "";
+      display: block;
+      border-top: solid 1px #700000;
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 14px;
+      z-index: 1; }
+    .options h3 span {
+      background: url(../img/bg-main.png) center top;
+      padding: 0 10px 0 0;
+      position: relative;
+      z-index: 5; }
 
-/* line 336, /Users/Nick/src/CanvasGo/sass/style.scss */
 .effect {
   margin-bottom: 34px;
   clear: both;
   line-height: 25px;
-  position: relative;
-}
-/* line 342, /Users/Nick/src/CanvasGo/sass/style.scss */
-.effect .name {
-  width: 150px;
-  float: left;
-  margin: 0;
-}
-/* line 348, /Users/Nick/src/CanvasGo/sass/style.scss */
-.effect .option {
-  width: 300px;
-  float: left;
-}
-/* line 353, /Users/Nick/src/CanvasGo/sass/style.scss */
-.effect .pricing {
-  position: absolute;
-  right: 0;
-  top: -5px;
-  display: block;
-  text-align: center;
-  font-size: 14px;
-  background: url("../img/sprite-features.png") no-repeat -537px -353px;
-  width: 90px;
-  height: 32px;
-  padding-top: 8px;
-  opacity: 0;
-  -webkit-transition: all 150ms ease-in;
-  -moz-transition: all 150ms ease-in;
-  -ms-transition: all 150ms ease-in;
-  -o-transition: all 150ms ease-in;
-  transition: all 150ms ease-in;
-}
-/* line 372, /Users/Nick/src/CanvasGo/sass/style.scss */
-.effect:hover .pricing {
-  opacity: 1;
-}
+  position: relative; }
+  .effect .name {
+    width: 150px;
+    float: left;
+    margin: 0; }
+  .effect .option {
+    width: 300px;
+    float: left; }
+  .effect .pricing {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    background: url("../img/sprite-features.png") no-repeat -537px -353px;
+    width: 90px;
+    height: 32px;
+    padding-top: 8px;
+    opacity: 0;
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -ms-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in; }
+  .effect:hover .pricing {
+    opacity: 1; }
 
-/* line 377, /Users/Nick/src/CanvasGo/sass/style.scss */
 .option-effects {
   width: 450px;
   margin-top: 4px;
   float: left;
-  clear: both;
-}
-/* line 383, /Users/Nick/src/CanvasGo/sass/style.scss */
-.option-effects input {
-  padding: 2px;
-  border: 1px solid #888;
-  background: #fff;
-  margin-right: 18px;
-}
-/* line 389, /Users/Nick/src/CanvasGo/sass/style.scss */
-.option-effects input:hover {
-  border: 1px solid #000;
-}
-/* line 394, /Users/Nick/src/CanvasGo/sass/style.scss */
-.option-effects .active {
-  padding: 1px;
-  border: 2px solid #700000;
-  pointer-events: none;
-}
+  clear: both; }
+  .option-effects input {
+    padding: 2px;
+    border: 1px solid #888;
+    background: #fff;
+    margin-right: 18px; }
+    .option-effects input:hover {
+      border: 1px solid #000; }
+  .option-effects .active {
+    padding: 1px;
+    border: 2px solid #700000;
+    pointer-events: none; }
 
-/* line 403, /Users/Nick/src/CanvasGo/sass/style.scss */
 input[name="borderColors"] {
   display: block;
   float: left;
@@ -1034,26 +824,16 @@ input[name="borderColors"] {
   width: 25px;
   height: 25px;
   border: none;
-  text-indent: -999em;
-}
-/* line 411, /Users/Nick/src/CanvasGo/sass/style.scss */
-input[name="borderColors"].none {
-  background: url("../img/sprite-features.png") no-repeat -556px -238px;
-}
-/* line 412, /Users/Nick/src/CanvasGo/sass/style.scss */
-input[name="borderColors"].black {
-  background: #000;
-}
-/* line 413, /Users/Nick/src/CanvasGo/sass/style.scss */
-input[name="borderColors"].red {
-  background: #700000;
-}
-/* line 414, /Users/Nick/src/CanvasGo/sass/style.scss */
-input[name="borderColors"].blue {
-  background: #365794;
-}
+  text-indent: -999em; }
+  input[name="borderColors"].none {
+    background: url("../img/sprite-features.png") no-repeat -556px -238px; }
+  input[name="borderColors"].black {
+    background: #000; }
+  input[name="borderColors"].red {
+    background: #700000; }
+  input[name="borderColors"].blue {
+    background: #365794; }
 
-/* line 418, /Users/Nick/src/CanvasGo/sass/style.scss */
 input[name="rolledCanvas"], input[name="fancyEdges"] {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   font-weight: 400;
@@ -1064,66 +844,46 @@ input[name="rolledCanvas"], input[name="fancyEdges"] {
   text-transform: uppercase;
   margin-right: 15px;
   font-size: 1.125em;
-  padding: 0;
-}
-/* line 430, /Users/Nick/src/CanvasGo/sass/style.scss */
-input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
-  color: #333;
-}
+  padding: 0; }
+  input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
+    color: #333; }
 
-/* line 434, /Users/Nick/src/CanvasGo/sass/style.scss */
 .option-canvas {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/* line 436, /Users/Nick/src/CanvasGo/sass/style.scss */
 .shadow {
   float: left;
   position: relative;
-  margin-right: 44px;
-}
-/* line 441, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow input[name="canvasChoice"] {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  border: 1px solid #888;
-  background: #fff;
-  text-align: center;
-  vertical-align: top;
-  position: relative;
-  width: inherit;
-  height: inherit;
-  color: #666;
-  z-index: 2;
-}
-/* line 454, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow input[name="canvasChoice"]:hover {
-  border: 1px solid #000;
-  color: #333;
-}
-/* line 455, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow input[name="canvasChoice"].active {
-  border: 2px solid #700000;
-  color: #700000;
-}
-/* line 458, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow.small {
-  width: 80px;
-  height: 80px;
-}
-/* line 459, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow.medium {
-  width: 120px;
-  height: 120px;
-}
-/* line 460, /Users/Nick/src/CanvasGo/sass/style.scss */
-.shadow.large {
-  width: 160px;
-  height: 160px;
-}
+  margin-right: 44px; }
+  .shadow input[name="canvasChoice"] {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #888;
+    background: #fff;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    width: inherit;
+    height: inherit;
+    color: #666;
+    z-index: 2; }
+    .shadow input[name="canvasChoice"]:hover {
+      border: 1px solid #000;
+      color: #333; }
+    .shadow input[name="canvasChoice"].active {
+      border: 2px solid #700000;
+      color: #700000; }
+  .shadow.small {
+    width: 80px;
+    height: 80px; }
+  .shadow.medium {
+    width: 120px;
+    height: 120px; }
+  .shadow.large {
+    width: 160px;
+    height: 160px; }
 
-/* line 465, /Users/Nick/src/CanvasGo/sass/style.scss */
 .shadow:before, .shadow:after {
   z-index: 1;
   position: absolute;
@@ -1141,10 +901,8 @@ input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
   -moz-transform: rotate(-6deg);
   -o-transform: rotate(-6deg);
   -ms-transform: rotate(-6deg);
-  transform: rotate(-6deg);
-}
+  transform: rotate(-6deg); }
 
-/* line 486, /Users/Nick/src/CanvasGo/sass/style.scss */
 .shadow:after {
   -webkit-transform: rotate(6deg);
   -moz-transform: rotate(6deg);
@@ -1152,63 +910,47 @@ input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
   -ms-transform: rotate(6deg);
   transform: rotate(6deg);
   right: 4px;
-  left: auto;
-}
+  left: auto; }
 
-/* line 497, /Users/Nick/src/CanvasGo/sass/style.scss */
 .price {
   padding: 15px;
   margin-bottom: 15px;
   width: 420px;
   background: url(../img/bg-main-light.png);
-  position: relative;
-}
-/* line 504, /Users/Nick/src/CanvasGo/sass/style.scss */
-.price h3 {
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #666;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-}
-/* line 511, /Users/Nick/src/CanvasGo/sass/style.scss */
-.price h3:before {
-  content: "";
-  display: block;
-  border-top: solid 1px #999;
-  width: 420px;
-  height: 1px;
-  position: absolute;
-  top: 29px;
-  z-index: 1;
-}
-/* line 522, /Users/Nick/src/CanvasGo/sass/style.scss */
-.price h3 span {
-  background: url(../img/bg-main-light.png);
-  padding: 0 10px 0 0;
-  position: relative;
-  z-index: 5;
-}
-/* line 530, /Users/Nick/src/CanvasGo/sass/style.scss */
-.price .item {
-  width: 300px;
-  float: left;
-  margin: 15px 0 0 10px;
-}
-/* line 536, /Users/Nick/src/CanvasGo/sass/style.scss */
-.price .cost {
-  width: 100px;
-  float: right;
-  text-align: center;
-  margin: 15px 0 0 0;
-}
+  position: relative; }
+  .price h3 {
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0 0 5px 0; }
+    .price h3:before {
+      content: "";
+      display: block;
+      border-top: solid 1px #999;
+      width: 420px;
+      height: 1px;
+      position: absolute;
+      top: 29px;
+      z-index: 1; }
+    .price h3 span {
+      background: url(../img/bg-main-light.png);
+      padding: 0 10px 0 0;
+      position: relative;
+      z-index: 5; }
+  .price .item {
+    width: 300px;
+    float: left;
+    margin: 15px 0 0 10px; }
+  .price .cost {
+    width: 100px;
+    float: right;
+    text-align: center;
+    margin: 15px 0 0 0; }
 
-/* line 544, /Users/Nick/src/CanvasGo/sass/style.scss */
 .total-container {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/* line 546, /Users/Nick/src/CanvasGo/sass/style.scss */
 .total, .checkout-total {
   float: right;
   width: 100px;
@@ -1216,199 +958,142 @@ input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
   color: #700000;
   text-align: center;
   font-size: 1.5em;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /** 
 ==================
     checkout 
 ================== 
 **/
-/* line 566, /Users/Nick/src/CanvasGo/sass/style.scss */
 .checkout-price {
   padding: 15px;
   margin-bottom: 15px;
   width: 570px;
   background: url(../img/bg-main-light.png);
-  position: relative;
-}
-/* line 573, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-price h3 {
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #666;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-}
-/* line 580, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-price h3:before {
-  content: "";
-  display: block;
-  border-top: solid 1px #999;
-  width: 570px;
-  height: 1px;
-  position: absolute;
-  top: 29px;
-  z-index: 1;
-}
-/* line 591, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-price h3 span {
-  background: url(../img/bg-main-light.png);
-  padding: 0 10px 0 0;
-  position: relative;
-  z-index: 5;
-}
-/* line 599, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-price .item {
-  width: 300px;
-  float: left;
-  margin: 15px 0 0 10px;
-}
-/* line 605, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-price .cost {
-  width: 100px;
-  float: right;
-  text-align: center;
-  margin: 15px 0 0 0;
-}
+  position: relative; }
+  .checkout-price h3 {
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0 0 5px 0; }
+    .checkout-price h3:before {
+      content: "";
+      display: block;
+      border-top: solid 1px #999;
+      width: 570px;
+      height: 1px;
+      position: absolute;
+      top: 29px;
+      z-index: 1; }
+    .checkout-price h3 span {
+      background: url(../img/bg-main-light.png);
+      padding: 0 10px 0 0;
+      position: relative;
+      z-index: 5; }
+  .checkout-price .item {
+    width: 300px;
+    float: left;
+    margin: 15px 0 0 10px; }
+  .checkout-price .cost {
+    width: 100px;
+    float: right;
+    text-align: center;
+    margin: 15px 0 0 0; }
 
-/* line 614, /Users/Nick/src/CanvasGo/sass/style.scss */
 .checkout-info {
   padding: 15px;
   margin-top: 75px;
   width: 570px;
-  position: relative;
-}
-/* line 620, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info h3 {
-  font-weight: 700;
-  font-size: 1.125em;
-  color: #666;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-}
-/* line 627, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info h3:before {
-  content: "";
-  display: block;
-  border-top: solid 1px #999;
-  width: 570px;
-  height: 1px;
-  position: absolute;
-  top: 29px;
-  z-index: 1;
-}
-/* line 638, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info h3 span {
-  background: url(../img/bg-main.png);
-  padding: 0 10px 0 0;
-  position: relative;
-  z-index: 5;
-}
-/* line 646, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form {
-  width: 570px;
-}
-/* line 649, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form div {
-  margin-top: 1.5em;
-  float: left;
-  margin-right: 60px;
-}
-/* line 655, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form input {
-  padding: 10px 7px;
-  background: #fff;
-  border: none;
-  width: inherit;
-  color: #999;
-  outline: none;
-  border-left: 3px solid #fff;
-  margin-top: 4px;
-  letter-spacing: 1px;
-}
-/* line 666, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form input:focus {
-  border-left: 3px solid #700000;
-}
-/* line 669, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form .name {
-  width: 255px;
-}
-/* line 670, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form .card {
-  width: 370px;
-}
-/* line 671, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form .csv {
-  width: 140px;
-}
-/* line 673, /Users/Nick/src/CanvasGo/sass/style.scss */
-.checkout-info form button {
-  margin-top: 36px;
-}
+  position: relative; }
+  .checkout-info h3 {
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0 0 5px 0; }
+    .checkout-info h3:before {
+      content: "";
+      display: block;
+      border-top: solid 1px #999;
+      width: 570px;
+      height: 1px;
+      position: absolute;
+      top: 29px;
+      z-index: 1; }
+    .checkout-info h3 span {
+      background: url(../img/bg-main.png);
+      padding: 0 10px 0 0;
+      position: relative;
+      z-index: 5; }
+  .checkout-info form {
+    width: 570px; }
+    .checkout-info form div {
+      margin-top: 1.5em;
+      float: left;
+      margin-right: 60px; }
+    .checkout-info form input {
+      padding: 10px 7px;
+      background: #fff;
+      border: none;
+      width: inherit;
+      color: #999;
+      outline: none;
+      border-left: 3px solid #fff;
+      margin-top: 4px;
+      letter-spacing: 1px; }
+      .checkout-info form input:focus {
+        border-left: 3px solid #700000; }
+    .checkout-info form .name {
+      width: 255px; }
+    .checkout-info form .card {
+      width: 370px; }
+    .checkout-info form .csv {
+      width: 140px; }
+    .checkout-info form button {
+      margin-top: 36px; }
 
 /** 
 ==================
     faq 
 ================== 
 **/
-/* line 684, /Users/Nick/src/CanvasGo/sass/style.scss */
 h2.question {
   font-size: 1.125em;
-  margin: 0;
-}
+  margin: 0; }
 
 /** 
 ==================
     contact 
 ================== 
 **/
-/* line 696, /Users/Nick/src/CanvasGo/sass/style.scss */
 .contact-info form {
   width: 450px div;
-  width-clear: both;
-}
-/* line 700, /Users/Nick/src/CanvasGo/sass/style.scss */
-.contact-info form label {
-  clear: both;
-}
-/* line 702, /Users/Nick/src/CanvasGo/sass/style.scss */
-.contact-info form .name {
-  width: 450px;
-}
-/* line 703, /Users/Nick/src/CanvasGo/sass/style.scss */
-.contact-info form .email {
-  width: 450px;
-}
-/* line 704, /Users/Nick/src/CanvasGo/sass/style.scss */
-.contact-info form .message {
-  width: 450px;
-}
-/* line 705, /Users/Nick/src/CanvasGo/sass/style.scss */
-.contact-info form .message textarea {
-  height: 100px;
-}
+    width-clear: both; }
+  .contact-info form label {
+    clear: both; }
+  .contact-info form .name {
+    width: 450px; }
+  .contact-info form .email {
+    width: 450px; }
+  .contact-info form .message {
+    width: 450px; }
+    .contact-info form .message textarea {
+      height: 100px; }
 
-/* line 713, /Users/Nick/src/CanvasGo/sass/style.scss */
 .map {
-  margin-top: 48px;
-}
+  margin-top: 48px; }
 
 /** 
 ==================
     footer 
 ================== 
 **/
-/* line 720, /Users/Nick/src/CanvasGo/sass/style.scss */
 .footer-container {
   margin-top: 20px;
   padding: 30px 0;
   background: url(../img/bg-footer.png);
-  color: #ccc;
-}
-/* line 726, /Users/Nick/src/CanvasGo/sass/style.scss */
-.footer-container footer {
-  width: 960px;
-  margin: 0 auto;
-}
+  color: #ccc; }
+  .footer-container footer {
+    width: 960px;
+    margin: 0 auto; }
