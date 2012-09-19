@@ -314,6 +314,7 @@ header {
 	color: #700000;
 	float: left;
 	font-style: italic;
+	margin-top: 54px;
 	
 	.author {
 		font-weight: 700;
@@ -321,6 +322,67 @@ header {
 		font-style: normal;
 	}
 }
+
+// slider
+#slider { 
+	margin: 10px 0 0 0;
+	height: 300px;
+	position: relative;
+	
+	.next-button, .prev-button {
+		position: absolute;
+		top: -46px;
+		background: url('../img/sprite-features.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		opacity: .5;
+		-webkit-transition: all 300ms ;
+		-moz-transition: all 300ms ;
+		-ms-transition: all 300ms ;
+		-o-transition: all 300ms ;
+		transition: all 300ms ;
+		
+		&:hover { opacity: 1 }
+	}
+	.next-button { background-position: -27px -423px; right: 22px; }
+	.prev-button { background-position: -67px -423px; right: 60px; }
+	
+	.viewport { 
+		float: left; 
+		width: 936px; 
+		height: 300px; 
+		overflow: hidden; 
+		position: relative; 
+	}
+		
+	.disable { 
+		opacity: .1;
+		
+		&:hover { opacity: .1; pointer-events: none; }
+	
+	}
+	
+	.overview { 
+		list-style: none; 
+		position: absolute; 
+		padding: 0; margin: 0; 
+		left: 0; top: 0; 
+	}
+	
+	.overview li{ 
+		float: left; 
+		margin: 0 24px 0 0; 
+		padding: 11px; 
+		width: 192px;
+		height: auto; 
+		border: 1px solid #dcdcdc; 
+		background: #fff;
+		text-align: center;
+		
+		img {margin-bottom: 6px;}
+	}
+}
+
 
 #modalHome {
 	text-align: center;

@@ -735,11 +735,66 @@ header {
   margin-top: 20px;
   color: #700000;
   float: left;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 54px; }
   .testimonial .author {
     font-weight: 700;
     font-size: 14px;
     font-style: normal; }
+
+#slider {
+  margin: 10px 0 0 0;
+  height: 300px;
+  position: relative; }
+  #slider .next-button, #slider .prev-button {
+    position: absolute;
+    top: -46px;
+    background: url("../img/sprite-features.png") no-repeat;
+    width: 30px;
+    height: 30px;
+    opacity: .5;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms; }
+    #slider .next-button:hover, #slider .prev-button:hover {
+      opacity: 1; }
+  #slider .next-button {
+    background-position: -27px -423px;
+    right: 22px; }
+  #slider .prev-button {
+    background-position: -67px -423px;
+    right: 60px; }
+  #slider .viewport {
+    float: left;
+    width: 936px;
+    height: 300px;
+    overflow: hidden;
+    position: relative; }
+  #slider .disable {
+    opacity: .1; }
+    #slider .disable:hover {
+      opacity: .1;
+      pointer-events: none; }
+  #slider .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    top: 0; }
+  #slider .overview li {
+    float: left;
+    margin: 0 24px 0 0;
+    padding: 11px;
+    width: 192px;
+    height: auto;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    text-align: center; }
+    #slider .overview li img {
+      margin-bottom: 6px; }
 
 #modalHome {
   text-align: center; }
