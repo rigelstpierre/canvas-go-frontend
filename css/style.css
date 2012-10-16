@@ -1022,6 +1022,14 @@ input[name="rolledCanvas"], input[name="fancyEdges"] {
       padding: 0 10px 0 0;
       position: relative;
       z-index: 5; }
+  .price ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .price ul li {
+      margin: 0;
+      padding: 0;
+      display: none; }
   .price .item {
     width: 300px;
     float: left;

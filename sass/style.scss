@@ -634,6 +634,16 @@ input[name="rolledCanvas"], input[name="fancyEdges"] {
 		}
 	}
 	
+	ul { 
+		list-style: none; 
+		margin: 0; padding: 0;
+		
+		li { 
+			margin: 0; padding: 0;
+			display: none;
+		}
+	}
+	
 	.item {
 		width: 300px;
 		float: left;
