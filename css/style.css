@@ -874,7 +874,7 @@ header {
   clear: both; }
   .option-effects input {
     padding: 2px;
-    border: 1px solid #888;
+    border: 1px solid #aaa;
     background: #fff;
     margin-right: 18px; }
     .option-effects input:hover {
@@ -883,6 +883,8 @@ header {
     padding: 1px;
     border: 2px solid #700000;
     pointer-events: none; }
+    .option-effects .active:hover {
+      border: 2px solid #700000; }
 
 input[name="borderColors"] {
   display: block;
@@ -891,7 +893,8 @@ input[name="borderColors"] {
   width: 25px;
   height: 25px;
   border: none;
-  text-indent: -999em; }
+  text-indent: -999em;
+  opacity: .5; }
   input[name="borderColors"].none {
     background: url("../img/sprite-features.png") no-repeat -556px -238px; }
   input[name="borderColors"].black {
@@ -900,6 +903,18 @@ input[name="borderColors"] {
     background: #700000; }
   input[name="borderColors"].blue {
     background: #365794; }
+  input[name="borderColors"].none.active {
+    background: url("../img/sprite-features.png") no-repeat -556px -238px;
+    opacity: 1; }
+  input[name="borderColors"].black.active {
+    background: black url("../img/check.png") no-repeat center center;
+    opacity: 1; }
+  input[name="borderColors"].red.active {
+    background: #700000 url("../img/check.png") no-repeat center center;
+    opacity: 1; }
+  input[name="borderColors"].blue.active {
+    background: #365794 url("../img/check.png") no-repeat center center;
+    opacity: 1; }
 
 input[name="rolledCanvas"], input[name="fancyEdges"] {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
@@ -913,6 +928,8 @@ input[name="rolledCanvas"], input[name="fancyEdges"] {
   font-size: 1.125em;
   padding: 0; }
   input[name="rolledCanvas"]:hover, input[name="fancyEdges"]:hover {
+    color: #333; }
+  input[name="rolledCanvas"].active, input[name="fancyEdges"].active {
     color: #333; }
 
 .option-canvas {

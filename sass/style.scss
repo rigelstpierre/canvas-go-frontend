@@ -478,7 +478,7 @@ header {
 	
 	input {
 		padding: 2px;
-		border: 1px solid #888;
+		border: 1px solid #aaa;
 		background: #fff;
 		margin-right: 18px;
 		
@@ -491,6 +491,10 @@ header {
 		padding: 1px;
 		border: 2px solid #700000;
 		pointer-events: none;
+		
+		&:hover {
+			border: 2px solid #700000;
+		}
 	}
 	
 }
@@ -503,11 +507,17 @@ input[name="borderColors"] {
 	width: 25px; height: 25px;
 	border: none;
 	text-indent: -999em;
+	opacity: .5;
 	
 	&.none { background: url('../img/sprite-features.png') no-repeat -556px -238px; }
 	&.black { background: #000; }
 	&.red { background: #700000; }
 	&.blue { background: #365794; }
+	
+	&.none.active { background: url('../img/sprite-features.png') no-repeat -556px -238px; opacity: 1; }
+	&.black.active { background: #000 url('../img/check.png') no-repeat center center; opacity: 1; }
+	&.red.active { background: #700000 url('../img/check.png') no-repeat center center; opacity: 1; }
+	&.blue.active { background: #365794 url('../img/check.png') no-repeat center center; opacity: 1; }
 }
 
 // yes or no options
@@ -524,6 +534,7 @@ input[name="rolledCanvas"], input[name="fancyEdges"] {
 	padding: 0;
 	
 	&:hover { color: #333; }
+	&.active { color: #333; }
 }
 
 // choose canvas
