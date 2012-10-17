@@ -25,11 +25,15 @@ $(function() {
 
 	// calculate total
 	function calculateTotal() {
-		var borderCost = parseFloat( $('.addBorderColors.calc').children('.cost').html().replace("$", "") );
-			rolledCost = parseFloat( $('.addRolledCanvas.calc').children('.cost').html().replace("$", "") );
-			edgesCost = parseFloat( $('.addFancyEdges.calc').children('.cost').html().replace("$", "") );
-			total = borderCost.val(); + rolledCost.val(); + edgesCost.val();
-			alert(total)
+		var border = $('.addBorderColors').is(':visible'),
+			rolled = $('.addRolledCanvas').is(':visible'),
+			fancy = $('.addFancyEdges').is(':visible')
+			if( border == true ) { var borderCost = 15.50 } else { var borderCost = 0.00 }
+			if( rolled == true ) { var rolledCost = 10.00 } else { var rolledCost = 0.00 }
+			if( fancy == true ) { var fancyCost = 5.50 } else { var fancyCost = 0.00 }
+			
+			total = parseFloat( borderCost + rolledCost + fancyCost ).toFixed(2)
+			$('.total').text('$' + total)
 	}
 	
 	// effects
@@ -68,6 +72,8 @@ $(function() {
 		} else {
 			$('.addRolledCanvas').show().addClass('calc');
 		}
+		
+		calculateTotal()
 	});
 	
 	// fancy edges
@@ -83,6 +89,8 @@ $(function() {
 		} else {
 			$('.addFancyEdges').show().addClass('calc');
 		}
+		
+		calculateTotal()
 	});
 	
 	// canvas choice
