@@ -481,6 +481,8 @@ header {
 	margin-top: 4px;
 	float: left;
 	clear: both;
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-weight: 400;
 	
 	input {
 		margin-right: 18px;
@@ -489,8 +491,15 @@ header {
 		&:hover { opacity: 1; }
 	}
 	
+	input[type="radio"] {
+		float: left;
+	}
+	
+	label { width: 180px; display: block; float: left; line-height: 14px; margin-bottom: 1em; }
+	span.red { color: #700000; padding-left: 25px }
+	
 	.active {
-		padding: 1px;
+		padding-bottom: 3px;
 		pointer-events: none;
 		opacity: 1;
 		

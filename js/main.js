@@ -36,6 +36,12 @@ $(function() {
 			$('.total').text('$' + total)
 	}
 	
+	// orientation
+	$('input[name="photoOrientation"]').click(function() {
+		$('input[name="photoOrientation"].active').removeClass('active');
+		$(this).addClass('active');
+	});
+	
 	// effects
 	$('input[name="photoEffect"]').click(function() {
 		$('input[name="photoEffect"].active').removeClass('active');

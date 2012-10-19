@@ -52,20 +52,37 @@
 		
 		<div class="container wrap">
 			<section class="half">
+			
 				<div class="options">
-					<h3><span>Adjust Your Photo</span></h3>
+					<h3><span>Choose Your Canvas</span></h3>
+					
+					<!-- orientation and crop -->
+					<div class="effect wrap">
+						<div class="name">Orientation</div>
+						<div class="option-orientation">
+							<input type="image" src="img/icon-landscape.png" name="photoOrientation" class="active" value="landscape">
+							<input type="image" src="img/icon-portrait.png" name="photoOrientation" value="portrait">
+							<input type="image" src="img/icon-square.png" name="photoOrientation" value="square">
+							<input type="image" src="img/icon-panoramic.png" name="photoOrientation" class="last" value="panoramic">
+							<button class="red">Crop</button>
+						</div>
+					</div>
+					
+					<!-- prices -->
+					<div class="effect wrap">
+						<div class="name">Size</div>
+						<div class="option-orientation">
+							<input type="radio" id="p-size1" value="p10x12" /><label for="p-size1">10" x 12" <span class="red">$27.99</span></label>
+							<input type="radio" id="p-size2" value="p10x14" /><label for="p-size2">10" x 14" <span class="red">$32.99</span></label>
+							<input type="radio" id="p-size3" value="p12x16" /><label for="p-size3">12" x 16" <span class="red">$33.60</span></label>
+							<input type="radio" id="p-size4" value="p12x18" /><label for="p-size4">12" x 18" <span class="red">$47.99</span></label>
+							<input type="radio" id="p-size" value="" /><label for="p-size"> <span class="red"></span></label>
+						</div>
+					</div>
 				</div>
 				
-				<!-- orientation and crop -->
-				<div class="effect wrap">
-					<div class="name">Photo Orientation</div>
-					<div class="option-orientation">
-						<input type="image" src="img/icon-landscape.png" name="photoOrientation" class="active" value="landscape">
-						<input type="image" src="img/icon-portrait.png" name="photoOrientation" value="portrait">
-						<input type="image" src="img/icon-square.png" name="photoOrientation" value="square">
-						<input type="image" src="img/icon-panoramic.png" name="photoOrientation" class="last" value="panoramic">
-						<button class="red">Crop</button>
-					</div>
+				<div class="options">
+					<h3><span>Adjust Your Photo</span></h3>
 				</div>
 				
 				<!-- special effects -->
@@ -109,16 +126,6 @@
 						<input type="button" name="fancyEdges" value="yes">
 					</div>
 					<div class="pricing">$5.50</div>
-				</div>
-				
-				<div class="options">
-					<h3><span>Choose Your Canvas</span></h3>
-					
-					<div class="option-canvas">
-						<div class="shadow small"><input type="button" src="thumb-effect.png" name="canvasChoice" class="active" value="sm"></div>
-						<div class="shadow medium"><input type="button" src="thumb-effect.png" name="canvasChoice" value="med"></div>
-						<div class="shadow large last"><input type="button" src="thumb-effect.png" name="canvasChoice" value="lg"></div>
-					</div>
 				</div>
 				
 			</section><!-- end customizations -->

@@ -878,14 +878,27 @@ header {
   width: 450px;
   margin-top: 4px;
   float: left;
-  clear: both; }
+  clear: both;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 400; }
   .option-orientation input {
     margin-right: 18px;
     opacity: .7; }
     .option-orientation input:hover {
       opacity: 1; }
+  .option-orientation input[type="radio"] {
+    float: left; }
+  .option-orientation label {
+    width: 180px;
+    display: block;
+    float: left;
+    line-height: 14px;
+    margin-bottom: 1em; }
+  .option-orientation span.red {
+    color: #700000;
+    padding-left: 25px; }
   .option-orientation .active {
-    padding: 1px;
+    padding-bottom: 3px;
     pointer-events: none;
     opacity: 1; }
     .option-orientation .active:hover {
