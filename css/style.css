@@ -583,8 +583,6 @@ form input, form textarea {
   letter-spacing: 1px; }
   form input:focus, form textarea:focus {
     border-left: 3px solid #700000; }
-form button {
-  margin-top: 36px; }
 
 #lean_overlay {
   position: fixed;
@@ -802,9 +800,18 @@ header {
     margin: 0;
     text-align: center; }
   #modalHome form {
-    width: 584px; }
-  #modalHome input {
-    width: 584px; }
+    width: 350px;
+    margin: 0 auto; }
+  #modalHome input[type="file"] {
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 300px;
+    margin: 0 auto 20px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+  #modalHome input[type="submit"] {
+    width: 150px;
+    margin: 0 auto; }
 
 /** 
 ==================
@@ -866,6 +873,26 @@ header {
     transition: all 150ms ease-in; }
   .effect:hover .pricing {
     opacity: 1; }
+
+.option-orientation {
+  width: 450px;
+  margin-top: 4px;
+  float: left;
+  clear: both; }
+  .option-orientation input {
+    margin-right: 18px;
+    opacity: .7; }
+    .option-orientation input:hover {
+      opacity: 1; }
+  .option-orientation .active {
+    padding: 1px;
+    pointer-events: none;
+    opacity: 1; }
+    .option-orientation .active:hover {
+      opacity: 1; }
+  .option-orientation button {
+    padding: 10px 27px;
+    margin-top: 5px; }
 
 .option-effects {
   width: 450px;

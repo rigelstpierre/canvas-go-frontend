@@ -126,8 +126,6 @@ form {
 		
 		&:focus {border-left: 3px solid #700000;}
 	}
-	
-	button { margin-top: 36px; }
 }
 
 // modal
@@ -385,11 +383,19 @@ header {
 
 
 #modalHome {
-	text-align: center;
-	
-	h3 {margin: 0; text-align: center;}
-	form {width: 584px}
-	input {width: 584px;}
+  text-align: center;
+
+  h3 {margin: 0; text-align: center;}
+  form {width: 350px; margin: 0 auto;}
+  input[type="file"] {
+  	font-size: 12px;
+  	text-transform: uppercase;
+  	width: 300px; 
+  	margin: 0 auto 20px;
+  	-webkit-border-radius: 5px;
+  	border-radius: 5px;
+  }
+  input[type="submit"] {width: 150px; margin: 0 auto;}
 }
 
 
@@ -467,6 +473,32 @@ header {
 	&:hover {
 		.pricing {opacity: 1;}
 	}
+}
+
+// photo orientation
+.option-orientation {
+	width: 450px;
+	margin-top: 4px;
+	float: left;
+	clear: both;
+	
+	input {
+		margin-right: 18px;
+		opacity: .7;
+		
+		&:hover { opacity: 1; }
+	}
+	
+	.active {
+		padding: 1px;
+		pointer-events: none;
+		opacity: 1;
+		
+		&:hover { opacity: 1 }
+	}
+	
+	button { padding: 10px 27px; margin-top: 5px }
+	
 }
 
 // photo manipulation options
